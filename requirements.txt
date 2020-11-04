@@ -1,0 +1,8 @@
+pyTelegramBotAPI
+urllib
+opencv
+numpy
+pillow
+torch
+torchvision
+albumentations
