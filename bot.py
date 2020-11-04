@@ -17,7 +17,7 @@ ocr_model = ocr.get_model()
 ocr_model.load_state_dict(torch.load("./models/ocr_resnet18.pth"))
 
 # Declare telegram bot
-TOKEN = "1209874254:AAGG1h5P44Z1NkmraSBlaI9WmvvqM5jIJe4"
+TOKEN = "your_token"
 bot = telebot.TeleBot(TOKEN)
 
 bot_text = """
@@ -27,8 +27,7 @@ bot_text = """
 
 Ждем от вас крутых фотографий 🤟
 
-Создано с ❤️ нашей командой по ANPR. 
-@wesion_bot
+Создано с ❤️ нашей командой по ANPR.
 """
 
 def save_image_from_message(message):
